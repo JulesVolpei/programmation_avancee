@@ -90,6 +90,7 @@ int main() {
 
     auto aleatoire = default_random_engine{};
 
+    /* La partie avec le gesetionnaire du signal est inspiré du gestionnaire du groupe sur Cigarette Smoker Problem (Dugourd - Cazals - Leiner - Gonzales) */
     // Si on arrête le programme
     signal(SIGINT, [](int) {
         unsigned nombre = 1;
